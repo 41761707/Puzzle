@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <title>Puzzle</title>
+        <link rel="stylesheet" href="indexcss.css">
+        <script src="newgame.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <main>
+            <section class="grid-layout">
+                <div id="canvas-container"></div>
+                <canvas id="image"></canvas>
+            </section>
+            <form>
+                <label>
+                    Wiersze:
+                    <input type="number" min="1" value="4" id="rows">
+                </label>
+                <label for="columns">
+                    Kolumny:
+                    <input type="number" min="1" value="4" id="columns">
+                </label>
+            </form>
+            <form>
+                <button id="mix">Rozpocznij grę!</button>
+            </form>
+            <div id="pictures"></div>
+        </main>
+    </body>
+</html>
